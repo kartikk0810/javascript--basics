@@ -31,9 +31,47 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = 33;
 let StringNumber = String(someNumber);
 
-console.log(someNumber);
-console.log(typeof StringNumber);
+//console.log(someNumber);
+//console.log(typeof StringNumber);
 
 // converting number into string  example above
+
+
+
+// ************** operations *******************************
+
+let value = 3;
+let negValue = -value;
+//console.log(negValue);
+
+//  this will automatic print value in negative beacuse we stored negvalue as neagtive
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 3);
+// console.log(2 / 2);
+// console.log(3 % 2);
+
+let str1 = "Hello";
+let str2  = " World";
+let str3 = (str1 + str2);
+// console.log(str3);
+
+
+console.log("1" + 2 + 2);
+
+console.log(1 + "2" + 2);
+
+console.log(1 + 1 + "2");
+
+// if first value stored in string then it will consider all data into string
+
+// if first value stored into numeric then it will goes to left to right and then print the total value first its solve 1 + 1 =2 then string value is "2"
+// output will show 22 
+
+
+
+
 
 
