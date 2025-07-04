@@ -49,4 +49,39 @@ console.log(myFunction);
 
 // function returns in function
 
-// arrays return in object object returns in object function returns in function
+// arrays return in object object returns in object function returns in function 
+
+
+//********************************************************************************************/
+
+// stack and heap in javascript 
+
+// stack(primitve data type) heap (non primitive data type)
+
+let myName = "hello world";
+let yourName = myName;
+yourname = "hello kartik"
+
+console.log(myName);
+console.log(yourName);
+
+// in stack memory we are changing copy data not original one
+
+let userOne = {
+
+    email: "hello@google.com",
+
+    upi: "1234@upi",
+}
+
+let userTwo = {
+    email: "world@google.com" ,
+    upi: "123@upi"
+}
+
+userOne = userTwo 
+userTwo.email = "helloworld@google.com"
+console.log(userOne);
+console.log(userTwo);
+
+// in heap memory we change on original data not on refernce copy 
